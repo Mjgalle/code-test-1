@@ -1,0 +1,682 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  margin:0;
+}
+@media only screen and (max-width: 767px) {
+  /*START OF NAV STYLING*/
+
+  ul {
+    margin:0;
+    display:flex;
+    list-style-type:none;
+  }
+  li {
+    padding:0 1.5vw;
+    font-size:.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoPolarisDC {
+    position: absolute;
+    top: -1.6vw;
+    left: 4.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .square {
+    border: .15vw solid black;
+    height: 7vw;
+    width: 7vw;
+    margin-right: 1vw;
+  }
+  h1 {
+    display:flex;
+    flex-direction:column;
+  }
+  .Polaris {
+    font-size: 5vw;
+    margin-bottom: -1.1vw;
+  }
+  .dentalCare {
+    text-transform: uppercase;
+    font-size: 2.3vw;
+  }
+  .topNav {
+    background-color: #e0effb;
+    width: 100%;
+    display: flex;
+    padding: 4.3vw 13vw 4.7vw 0;
+    align-items: center;
+    flex-direction:row-reverse;
+  }
+  .city {
+    color:#7e878e;
+    font-weight:bold;
+    font-size:3vw;
+    padding-right:5.5vw;
+  }
+  .phoneNumber {
+    color:#7e878e;
+  }
+  .topNav#bottom {
+   display:none;
+  }
+  .orangeSquare {
+    width: 0;
+    height: 0;
+    border-left: 0.4vw solid transparent;
+    border-right: 0.4vw solid transparent;
+    border-top: 0.4vw solid #ff8f0b;
+    margin-left: 0.8vw;
+  }
+  /*END OF NAV STYLING*/
+
+
+  button.scheduleApp {
+    text-transform: uppercase;
+    background-color: #e0effb00;
+    border: 0.12vw solid black;
+    padding: 0.5vw 1.3vw;
+    font-weight:bolder;
+  }
+  button.scheduleApp#buttonTwo {
+    margin-top:2.5vw;
+  }
+  button:hover,
+  button:focus {
+    opacity:.5;
+    cursor:pointer;
+  }
+ 
+  .creamBackground {
+    z-index: -1;
+    background-color: #fff8f0;
+    height: 741vw;
+    width: 100%;
+    position: absolute;
+    top: 218vw;
+  }
+
+
+  /*START OF FIRST TOUT CSS*/
+  .firstTout {
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction:column;
+  }
+  .columnOne {
+    margin-top:14.7vw;
+    margin-left:4vw;
+  }
+  .enhance {
+    text-transform: uppercase;
+    color: grey;
+    font-size: 5.7vw;
+  }
+  h2 {
+    font-size: 16.45vw;
+    text-transform: uppercase;
+    line-height: 16vw;
+    color: #303030;
+    margin: 1.9vw 0 0;
+    font-weight: 100;
+  }
+  p {
+    color: grey;
+    font-size: 3.04vw;
+    line-height: 5.5vw;
+  }
+  .imageCrop {
+    max-width: 116vw;
+    overflow: hidden;
+    text-indent: -12vw;
+    margin-left: -16vw;
+    margin-top: 7vw;
+  }
+  img.familyImage {
+    width: 138vw;
+  }
+  button.scheduleApp#buttonTwo {
+    margin-top:-0.5vw;
+    font-size: 2.5vw;
+    padding: 2vw 4.5vw;
+  }
+  /*END OF OF FIRST TOUT CSS*/
+
+  /*START OF THE SECOND TOUT CSS*/
+  .secondTout {
+    display:flex;
+    flex-direction:column;
+  }
+  .headingTwo {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    border-bottom:2px solid black;
+    margin:2vw 0 0 5vw;
+  }
+  h3 {
+    font-size: 11vw;
+    font-weight: 100;
+    letter-spacing: 0.2vw;
+    margin:0 0 2vw;
+    width:30vw;
+  }
+  button.scheduleApp#thirdCta {
+    position:absolute;
+    margin-top:116vw;
+    font-size: 2.5vw;
+    padding: 2vw 4.5vw;
+  }
+
+
+  .imagesWrapper {
+    display:Flex;
+    justify-content: space-between;
+    margin-top:7vw;
+    margin-left:6vw;
+  }
+
+  .dentalImplants {
+    font-size: 3vw;
+    color: #ff9a30;
+    text-transform: uppercase;
+    padding-left: 3.5vw;
+    margin-top: 2vw;
+    font-weight: bolder;
+  }
+  p.copyUnderDental {
+    color: #818181;
+    font-size: 2.8vw;
+    line-height: 4.5vw;
+    padding-left: 3.5vw;
+  }
+  .learnMoreDentalImplants {
+    font-size: 2.5vw;
+    color: #2a78b9;
+    padding-left: 3.5vw;
+    font-weight: bolder;
+    padding-top: 1vw;
+  }
+  .smallGreyArrow {
+    padding-left:2vw;
+    font-size:2vw;
+    color:#b8b8b8;
+  }
+  .imageWrapper {
+    max-width:66vw;
+    overflow:hidden;
+    max-height:33vw;
+  }
+  .imageWrapper#restOfPics {
+    max-height:19vw;
+  }
+
+  img.firstOfRow {
+    margin-top: -30vw;
+    margin-left: -46vw;
+    width: 154vw;
+  }
+  img.secondOfRow {
+    margin-left:-4vw;
+    width:25vw;
+    margin-top:-5vw;
+    display:none;
+  }
+  img.thirdOfRow {
+    margin-top: 0;
+    width: 37vw;
+    margin-left: -19vw;
+    display:none;
+  }
+  img.fourthOfRow {
+    margin-top: 0;
+    width: 37vw;
+    margin-left: -8vw;
+    display:none;
+  }
+  img.fifthOfRow {
+    margin-top: -4vw;
+    width: 20vw;
+    margin-left: -4vw;
+    display:none;
+  }
+  .nameOfService {
+    display:none;
+  }
+  .arrowsPlace {
+    margin-top:6vw;
+    margin-left:3vw;
+  }
+  .arrowLeft {
+    border:0;
+    font-size:4vw;
+    opacity:.5;
+    background-color: #ffffff00;
+  }
+  .arrowRight {
+    border:0;
+    font-size:4vw;
+    background-color: #ffffff00;
+  }
+  /*END OF SECOND TOUT*/
+
+
+
+  /*START OF THIRD TOUT*/
+  .centerTout {
+    margin-top:20vw;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  .bigImageWrapper {
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 126vw;
+  }
+  img.invisalignPicture {
+    width: 173vw;
+    margin-left: -34vw;
+  }
+  .columnOfCopy {
+    width:100%;
+    margin-top: 4vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h3.whyChoose {
+    border-bottom:2px solid black;
+    padding-bottom:1vw;
+    width:82vw;
+    text-align:left;
+  }
+  .threeTopRow {
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction:column;
+  }
+  .wrapperOfIcon {
+    width:71vw;
+    text-align:center;
+    position:relative;
+    margin-bottom:9vw;
+  }
+  .wrapperOfIcon#whiteBackground {
+    background-color:white;
+  }
+  h4 {
+    font-size: 4.7vw;
+    color: #ff9a30;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 0;
+  }
+  p.iconCopy {
+    font-size: 3.6vw;
+    line-height: 5.1vw;
+  }
+  .pngSize {
+    width: 28vw;
+    padding-top: 1.2vw;
+  }
+  .imageHider {
+    position: absolute;
+    background-color: #fff8f0;
+    top: 25.3vw;
+    left: 21vw;
+    width: 16vw;
+    height: 3.1vw;
+  }
+  .imageHider#whiteBG {
+    background-color:#fff;
+  }
+  .desktop {
+    display:none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  /*START OF NAV STYLING*/
+ 
+  ul {
+    margin:0;
+    display:flex;
+    list-style-type:none;
+  }
+  li {
+    padding:0 1.5vw;
+    font-size:.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoPolarisDC {
+    position:absolute;
+    top: 2.4vw;
+    left: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .square {
+    border: .15vw solid black;
+    height: 4vw;
+    width: 4vw;
+    margin-right: 0.2vw;
+  }
+  h1 {
+    display:flex;
+    flex-direction:column;
+  }
+  .Plaris {
+    font-size:2.2vw;
+  }
+  .dentalCare {
+    text-transform:uppercase;
+    font-size:1.09vw;
+  }
+
+  .topNav {
+    background-color: #e0effb;
+    width: 93%;
+    display: flex;
+    padding: 1.3vw 8vw 1.7vw 0;
+    align-items: center;
+    flex-direction:row-reverse;
+  }
+  .city {
+    padding-right:.3vw;
+    color:#7e878e;
+    font-weight:bold;
+  }
+  .phoneNumber {
+    color:#7e878e;
+  }
+  .topNav#bottom {
+    background-color:white;
+    border-bottom:.1vw solid #f4f4f4;
+  }
+  .orangeSquare {
+    width: 0;
+    height: 0;
+    border-left: 0.4vw solid transparent;
+    border-right: 0.4vw solid transparent;
+    border-top: 0.4vw solid #ff8f0b;
+    margin-left: 0.8vw;
+  }
+  /*END OF NAV STYLING*/
+
+
+  button.scheduleApp {
+    text-transform: uppercase;
+    background-color: #e0effb00;
+    border: 0.12vw solid black;
+    padding: 0.5vw 1.3vw;
+    font-weight:bolder;
+  }
+  button.scheduleApp#buttonTwo {
+    margin-top:2.5vw;
+  }
+  button:hover,
+  button:focus {
+    opacity:.5;
+    cursor:pointer;
+  }
+  .creamBackground {
+    z-index: -1;
+    background-color: #fff8f0;
+    height:137vw;
+    width: 64vw;
+    position: absolute;
+    top: 23.2vw;
+    right: -2vw;
+  }
+
+
+  /*START OF FIRST TOUT CSS*/
+  .firstTout {
+    display:flex;
+    justify-content: space-evenly;
+  }
+  .columnOne {
+    margin-top:9.7vw;
+    width:24.8vw;
+    margin-left:14vw;
+  }
+  .enhance {
+    text-transform: uppercase;
+    color: grey;
+    font-size: 0.7vw;
+  }
+  h2 {
+    font-size:5.45vw;
+    text-transform:uppercase;
+    line-height:6vw;
+    color:#303030;
+    margin:1.9vw 0 0;
+    font-weight: 100;
+  }
+  p {
+    color: grey;
+    font-size: .94vw;
+    line-height: 1.5vw;
+  }
+  .imageCrop {
+    max-width: 47vw;
+    overflow: hidden;
+    text-indent: -12vw;
+    margin-top: 4.7vw;
+    margin-right: 11vw;
+  }
+  img.familyImage {
+    width: 66vw;
+  }
+
+  /*END OF OF FIRST TOUT CSS*/
+
+  /*START OF THE SECOND TOUT CSS*/
+  .secondTout {
+    display:flex;
+    flex-direction:column;
+    width:85vw;
+    right:0;
+    position:absolute;
+    top:69vw;
+  }
+  .headingTwo {
+    display:flex;
+    justify-content: space-between;
+    border-bottom:2px solid black;
+    margin:2vw 0;
+    align-items:center;
+  }
+  h3 {
+    font-size: 3vw;
+    font-weight: 100;
+    letter-spacing: 0.2vw;
+    margin:0 0 1vw;
+  }
+  button.scheduleApp#thirdCta {
+    margin-right:10vw;
+  }
+
+
+  .imagesWrapper {
+    display:Flex;
+    justify-content: space-between;
+  }
+
+  .dentalImplants {
+    font-size:.9vw;
+    color:#ff9a30;
+    text-transform:uppercase;
+    padding-left: 1.5vw;
+    margin-top: 2vw;
+    font-weight: bolder;
+  }
+  p.copyUnderDental {
+    color:#818181;
+    font-size:.8vw;
+    padding-left: 1.5vw;
+  }
+  .learnMoreDentalImplants {
+    font-size:.8vw;
+    color:#2a78b9;
+    padding-left: 1.5vw;
+    font-weight: bolder;
+    padding-top:2vw;
+  }
+  .smallGreyArrow {
+    padding-left:2vw;
+    font-size:.8vw;
+    color:#b8b8b8;
+  }
+  .imageWrapper {
+    max-width:16vw;
+    overflow:hidden;
+    max-height:8vw;
+  }
+  .imageWrapper#restOfPics {
+    max-height:19vw;
+  }
+
+  img.firstOfRow {
+    margin-top: -11vw;
+    margin-left: -15vw;
+    width:45vw;
+  }
+  img.secondOfRow {
+    margin-left:-4vw;
+    width:25vw;
+    margin-top:-5vw;
+  }
+  img.thirdOfRow {
+    margin-top: 0;
+    width: 37vw;
+    margin-left: -19vw;
+  }
+  img.fourthOfRow {
+    margin-top: 0;
+    width: 37vw;
+    margin-left: -8vw;
+  }
+  img.fifthOfRow {
+    margin-top: -4vw;
+    width: 20vw;
+    margin-left: -4vw;
+  }
+  .nameOfService {
+    background-color:#000;
+    color:#fff;
+    text-transform:uppercase;
+    padding: 1.5vw 0 1.5vw 1.2vw;
+    font-size:.9vw;
+    font-weight:bolder;
+  }
+  .arrowsPlace {
+    margin-top:1vw;
+  }
+  .arrowLeft {
+    border:0;
+    font-size:1.5vw;
+    opacity:.5;
+    background-color: #ffffff00;
+  }
+  .arrowRight {
+    border:0;
+    font-size:1.5vw;
+    background-color: #ffffff00;
+  }
+  /*END OF SECOND TOUT*/
+
+
+
+  /*START OF THIRD TOUT*/
+  .centerTout {
+    margin-top:57vw;
+    position:relative;
+    display:flex;
+    justify-content: center;
+  }
+  .bigImageWrapper {
+    max-width:33vw;
+    overflow:hidden;
+    max-height:41vw;
+  }
+  img.invisalignPicture {
+    width:58vw;
+    margin-left:-13vw;
+  }
+  .columnOfCopy {
+    padding-left:3vw;
+    width:44vw;
+  }
+  h3.whyChoose {
+    border-bottom:2px solid black;
+    padding-bottom:1vw;
+    text-align:center;
+  }
+  .threeTopRow {
+    display:flex;
+    justify-content: space-evenly;
+  }
+  .wrapperOfIcon {
+    width:16vw;
+    text-align:center;
+    position:relative;
+  }
+  .wrapperOfIcon#whiteBackground {
+    background-color:white;
+  }
+  h4 {
+    font-size:.9vw;
+    color:#ff9a30;
+    text-transform:uppercase;
+    font-weight: bolder;
+    margin-top:0;
+  }
+  p.iconCopy {
+    font-size:.8vw;
+    line-height:1.1vw;
+  }
+  .pngSize {
+    width: 5vw;
+    padding-top: 1.2vw;
+  }
+  .imageHider {
+    position: absolute;
+    background-color: #fff8f0;
+    top: 5.5vw;
+    left: 4vw;
+    width: 5vw;
+    height: 0.5vw;
+  }
+  .imageHider#whiteBG {
+    background-color:#fff;
+  }
+ .mobile {
+    display:none;
+  }
+}
